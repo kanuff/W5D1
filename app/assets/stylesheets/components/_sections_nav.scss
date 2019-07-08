@@ -1,0 +1,29 @@
+.sections-nav > ul{
+  display: flex;
+  justify-content: center;
+}
+
+.sections-nav li {
+  margin: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sections-nav a {
+  color: black;
+  border-bottom: none;
+}
+
+.sections-nav {
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav a:hover {
+  background-color: $light-gray;
+}
+
+.all-section{
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: 1px solid black;  
+}
